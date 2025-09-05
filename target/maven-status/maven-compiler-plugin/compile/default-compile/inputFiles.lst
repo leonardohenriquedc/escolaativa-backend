@@ -1,8 +1,17 @@
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/ServerApplication.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Behavior.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Classes.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Contacts.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Disciplines.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Dispute.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/DisputeIds.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Mission.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Role.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Teaching.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/TeachingIds.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Teams.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/TeamsBehavior.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/TeamsMission.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/TeamsMissionIds.java
+/home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/Tournaments.java
 /home/denver/Documentos/backup_hd_1tb/GITHUB/escolaativa_backend/src/main/java/com/escolaativa/server/entities/User.java

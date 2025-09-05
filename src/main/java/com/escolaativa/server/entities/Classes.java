@@ -1,9 +1,14 @@
 package com.escolaativa.server.entities;
 
+import java.time.Year;
+import java.util.ArrayList;
+import java.util.List;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -18,17 +23,23 @@ public class Classes {
 
   private String series;
 
-  private Integer year;
+  private Year yearOfClass;
 
   private String period;
 
   private String educationLevel;
 
-  public Classes(Integer id, String degree, String series, Integer year, String period, String educationLevel) {
+  @OneToMany(mappedBy = "classes")
+  private List<Tournaments> tournaments = new ArrayList<>();
+
+  @OneToMany(mappedBy = "classes")
+  private List<Teams> teams = new ArrayList<>();
+
+  public Classes(Integer id, String degree, String series, Year year, String period, String educationLevel) {
     this.id = id;
     this.degree = degree;
     this.series = series;
-    this.year = year;
+    this.yearOfClass = year;
     this.period = period;
     this.educationLevel = educationLevel;
   }
@@ -60,12 +71,12 @@ public class Classes {
     return series;
   }
 
-  public void setYear(Integer year) {
-    this.year = year;
+  public void setYear(Year year) {
+    this.yearOfClass = year;
   }
 
-  public Integer getYear() {
-    return year;
+  public Year getYear() {
+    return yearOfClass;
   }
 
   public void setPeriod(String period) {
